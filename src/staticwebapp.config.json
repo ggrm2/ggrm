@@ -1,4 +1,9 @@
-{   
-  "route": "/index.html",     
-  "rewrite": "/zhenshi/index.html" 
-}
+{
+    "routes": [
+        {
+            "route": "/*",
+            "redirect": "/zhenshi/index.html",
+            "statusCode": 301
+        }
+    ]
+} 
