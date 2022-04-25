@@ -1,5 +1,4 @@
 {   
-  "navigationFallback": {"/index.html",     
-    "rewrite": "/zhenshi/index.html" 
-  } 
+  "route": "/index.html",     
+  "rewrite": "/zhenshi/index.html" 
 }
