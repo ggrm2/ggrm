@@ -6,7 +6,7 @@
             "statusCode": 301
         },
 	{
-            "route": "/zhenshi-1",
+            "route": "/zhenshi/zhenshi-1",
             "rewrite": "/zhenshi/zhenshi-1.html"
         }
 	]
