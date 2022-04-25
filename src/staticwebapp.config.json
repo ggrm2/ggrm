@@ -4,6 +4,15 @@
             "route": "/*",
             "redirect": "/zhenshi/index.html",
             "statusCode": 301
+        },
+	{
+            "route": "/zhenshi-1",
+            "redirect": "/zhenshi/zhenshi-1.html",
+            "statusCode": 200 
+        }{
+            "route": "/zhenshi-2",
+            "redirect": "/zhenshi/zhenshi-2.html",
+            "statusCode": 200
         }
     ]
 } 
