@@ -14,30 +14,30 @@
     <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" tabindex="0" style="margin: auto"> </video>
 
     <script>
-        var myOptions = {
+	var myOptions = {
             autoplay: false,
             controls: true,
             width: "1920",
             height: "1080",
-        poster: "",
-        playbackSpeed: {
-            enabled: true,
-            initialSpeed: 1.0,
-            speedLevels: [
-                { name: "x4.0", value: 4.0 },
-                { name: "x3.0", value: 3.0 },
-                { name: "x2.0", value: 2.0 },
-                { name: "x1.75", value: 1.75 },
-                { name: "x1.5", value: 1.5 },
-                { name: "x1.25", value: 1.25 },
-                { name: "normal", value: 1.0 },
-                { name: "x0.75", value: 0.75 },
-                { name: "x0.5", value: 0.5 },
-            ]
-        }
+            poster: "",
+            playbackSpeed: {
+            	enabled: true,
+            	initialSpeed: 1.0,
+            	speedLevels: [
+                	{ name: "x4.0", value: 4.0 },
+                	{ name: "x3.0", value: 3.0 },
+                	{ name: "x2.0", value: 2.0 },
+                	{ name: "x1.75", value: 1.75 },
+                	{ name: "x1.5", value: 1.5 },
+                	{ name: "x1.25", value: 1.25 },
+                	{ name: "normal", value: 1.0 },
+                	{ name: "x0.75", value: 0.75 },
+                	{ name: "x0.5", value: 0.5 },
+            		]
+        	}
         };
         var myPlayer = amp("azuremediaplayer", myOptions);
-        myPlayer.src([{ src: "https://ggrm2-koct1.streaming.media.azure.net/031ea407-4ab6-4806-9928-a7705341f982/神国工人2.2.ism/manifest(encryption=cbc)", type: "application/vnd.ms-sstr+xml", protectionInfo: [{ type: "AES" }] }]);
+        myPlayer.src([{ src: "https://ggrm2-koct1.streaming.media.azure.net/8ffa9ab8-2894-42e7-8bc8-6d6fe9a2a908/神国工人2.2.ism/manifest(encryption=cbc)", type: "application/vnd.ms-sstr+xml", protectionInfo: [{ type: "AES" }] }]);
     </script>
     <footer>
         <br />
