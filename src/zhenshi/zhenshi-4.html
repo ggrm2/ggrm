@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
@@ -9,19 +10,34 @@
     <script src="//amp.azure.net/libs/amp/2.3.10/azuremediaplayer.min.js"></script>
 </head>
 <body>
-    <h1>真实成为主门徒</h1>
-    <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" tabindex="0"> </video>
+    <h1 style="text-align: center">真实成为主门徒</h1>
+    <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" tabindex="0" style="margin: auto"> </video>
 
     <script>
-        var myOptions = {
+	var myOptions = {
             autoplay: false,
             controls: true,
-            width: "1280",
-            height: "720",
-            poster: ""
+            width: "1920",
+            height: "1080",
+            poster: "",
+            playbackSpeed: {
+            	enabled: true,
+            	initialSpeed: 1.0,
+            	speedLevels: [
+                	{ name: "x4.0", value: 4.0 },
+                	{ name: "x3.0", value: 3.0 },
+                	{ name: "x2.0", value: 2.0 },
+                	{ name: "x1.75", value: 1.75 },
+                	{ name: "x1.5", value: 1.5 },
+                	{ name: "x1.25", value: 1.25 },
+                	{ name: "normal", value: 1.0 },
+                	{ name: "x0.75", value: 0.75 },
+                	{ name: "x0.5", value: 0.5 },
+            		]
+        	}
         };
         var myPlayer = amp("azuremediaplayer", myOptions);
-        myPlayer.src([{ src: "https://ggrm2-koct1.streaming.media.azure.net/4c939a8e-3108-4fb3-ba16-1345b979e000/真实门徒4.ism/manifest(encryption=cbc)", type: "application/vnd.ms-sstr+xml", protectionInfo: [{ type: "AES" }] }]);
+        myPlayer.src([{ src: "https://ggrm2-koct1.streaming.media.azure.net/555fe2ae-7d2b-4530-98d1-96b2b705d2d6/真实门徒4.ism/manifest(encryption=cbc)", type: "application/vnd.ms-sstr+xml", protectionInfo: [{ type: "AES" }] }]);
     </script>
     <footer>
         <br />
