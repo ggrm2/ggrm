@@ -8,6 +8,10 @@
 	{
             "route": "/zhenshi-1",
             "rewrite": "/zhenshi/zhenshi-1.html"
+        },
+	{
+            "route": "/build",
+            "rewrite": "/Build/index.html"
         }
 	]
 } 
