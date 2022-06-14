@@ -40,7 +40,7 @@
         {
             "route": "/goodlanguage",
             "rewrite": "/Goodlanguage/index.html"
-        }'
+        },
         {
             "route": "/suffering",
             "rewrite": "/Suffering/index.html"
