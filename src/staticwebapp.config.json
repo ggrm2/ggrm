@@ -12,6 +12,38 @@
 	{
             "route": "/build",
             "rewrite": "/Build/index.html"
+        },
+        {
+            "route": "/spiritsoulbody",
+            "rewrite": "/SpiritSoulBody/index.html"
+        },
+        {
+            "route": "/faithfoundation",
+            "rewrite": "/FaithFoundation/index.html"
+        },
+        {
+            "route": "/faithbasis",
+            "rewrite": "/FaithBasis/index.html"
+        },
+        {
+            "route": "/grace",
+            "rewrite": "/Grace/index.html"
+        } ,
+        {
+            "route": "/godnature",
+            "rewrite": "/Godnature/index.html"
+        },
+        {
+            "route": "/holyspirit",
+            "rewrite": "/HolySpirit/index.html"
+        },
+        {
+            "route": "/goodlanguage",
+            "rewrite": "/Goodlanguage/index.html"
+        },
+        {
+            "route": "/suffering",
+            "rewrite": "/Suffering/index.html"
         }
 	]
 } 
